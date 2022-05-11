@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.landing h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.links {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.links li {
+  list-style: none;
+}
+.links li a {
+  position: relative;
+  width: 100%;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.links li a i {
+  position: absolute;
+  right: 50px;
+  bottom: 0px;
+}
+.landing img {
+  width: 100%;
+  margin-top: 70px;
+}
+.landing .h1 {
+  text-align: left;
+  margin-left: 45px;
+}
+.landing p {
+  width: 80%;
+  line-height: 1.5;
+  margin-left: 45px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.landing .peter {
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 45px;
+  color: #66023c;
+}
+.landing a {
+  font-size: 20px;
+  margin-left: 45px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.about img {
+  width: 60%;
+  padding: 20px;
+  border-radius: 50%;
+  padding-top: 50px;
+}
+.about h1 {
+  text-align: center;
+}
+.about p {
+  width: 80%;
+  text-align: center;
+  margin-top: 40px;
+  line-height: 2;
+  font-size: 20px;
+}
+.skills {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.skills h1 {
+  text-align: center;
+  width: 100%;
+  color: #66023c;
+}
+.elon {
+  height: 100%;
+  width: 70%;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-left: 230px; */
+  box-shadow: 5px 10px 8px 10px #888888;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.elon img {
+  width: 80%;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.elon a {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.skills .more {
+  padding-top: 90px;
+  animation: suzal 0.5s linear 2s infinite alternate;
+}
+@keyframes suzal {
+  0% {
+    color: #66023c;
+  }
+  100% {
+    color: black;
+  }
+}
+.contact {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+  background: url("./undraw_Developer_activity_re_39tg.png");
+  background-position-y: -100px;
+  background-size: 50%;
+  background-position-x: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form input {
+  width: 70%;
+  border: none;
+  border-bottom: 1px solid black;
+  height: 10vh;
+  font-size: 20px;
+  background: transparent;
+}
+.contact img {
+  width: 60%;
+  position: absolute;
+  right: 4px;
+  bottom: 280px;
+  z-index: -1;
+}
+textarea {
+  background-color: transparent;
+  padding: 20px;
+}
+::placeholder {
+  position: absolute;
+  bottom: 0;
+  font-size: 20px;
+}
+.contact button {
+  width: 60%;
+  margin-top: 50px;
+  padding: 20px 15px;
+  font-size: 20px;
+  border-radius: 2.5em;
+  border: none;
+  background: #66023c;
+  color: white;
+}
